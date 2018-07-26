@@ -2,9 +2,9 @@
 " Language:             readline(3) configuration file
 " Maintainer:           Daniel Moch <daniel@danielmoch.com>
 " Previous Maintainer:  Nikolai Weibull <now@bitwi.se>
-" Latest Revision:      2017-12-25
-"   readline_has_bash - if defined add support for bash specific
-"                       settings/functions
+" Latest Revision:      2018-07-26
+"                       Add new functions for Readline 7 / Bash 4.4
+"                       (credit: Github user bewuethr)
 
 if exists('b:current_syntax')
   finish
